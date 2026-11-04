@@ -28,14 +28,14 @@ async function updateUser() {
     }
     console.log(user)
     const newUserDetailes = {
-        UserID: user.userID,
+        UserId: user.userId,
         Email: userEmail.value,
         Password: pass.value,
         FirstName: firstName.value,
         LastName: lastName.value,
     }
     try {
-        const requestPass = "/api/users/"+ newUserDetailes.UserID.toString();
+        const requestPass = "/api/users/"+ newUserDetailes.UserId.toString();
         const responseOurPost = await fetch(requestPass, {
             method: "PUT",
             headers: {

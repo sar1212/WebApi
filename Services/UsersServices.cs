@@ -15,9 +15,9 @@ namespace Services
         {
            return usersRepository.Login(loginUser);
         }
-        public User SignIn(User user)
+        public User SignUp(User user)
         {
-          return usersRepository.SignIn(user);
+          return usersRepository.SignUp(user);
         }
         public bool Update(User userToUpdate)
         {
@@ -25,7 +25,7 @@ namespace Services
         }
         public int RemoveUser(User userToRemove)
         {
-            return usersRepository.RemoveUser(userToRemove.UserID);
+            return usersRepository.RemoveUser(userToRemove.UserId);
         }
     }
 }

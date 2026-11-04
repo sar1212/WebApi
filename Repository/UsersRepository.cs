@@ -16,7 +16,7 @@ namespace Repository
                 {
                     User user =
                     JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (user.UserID == id)
+                    if (user.UserId == id)
                         return user;
                 }
             }
@@ -37,14 +37,20 @@ namespace Repository
             return null;
 
         }
-        public User SignIn(User user)
+        public User SignUp(User user)
         {
             if (passwordValidation(user.Password) <= 2)
             {
                 return null;
             }
-            int numberOfUsers = System.IO.File.ReadLines(filePath).Count();
-            user.UserID = numberOfUsers + 1;
+            int maxId = 0;
+            foreach (string line in System.IO.File.ReadLines(filePath))
+            {
+                if (string.IsNullOrWhiteSpace(line)) continue;
+                var u = JsonSerializer.Deserialize<User>(line);
+                if (u.UserId > maxId) maxId = u.UserId;
+            }
+            user.UserId = maxId + 1;
             string userJson = JsonSerializer.Serialize(user);
             System.IO.File.AppendAllText(filePath, userJson + Environment.NewLine);
             return user;
@@ -58,7 +64,7 @@ namespace Repository
                 while ((currentUserInFile = reader.ReadLine()) != null)
                 {
                     User user = JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (user.UserID == userToUpdate.UserID)
+                    if (user.UserId == userToUpdate.UserId)
                         textToReplace = currentUserInFile;
                 }
             }

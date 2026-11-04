@@ -33,10 +33,10 @@ async function login() {
     console.log(user)
     sessionStorage.setItem("user", JSON.stringify(user))
 
-    window.location.href = "UserDetailes.html"
+    window.location.href = "UserDetails.html"
 
 }
-async function signIn() {
+async function signUp() {
     const userN = document.querySelector("#newUserName").value;
     const pass = document.querySelector("#newPassword").value;
     const firstName = document.querySelector("#firstName").value;
@@ -54,7 +54,7 @@ async function signIn() {
         FirstName: firstName,
         LastName: lastName,
     }
-    const responseOurPost = await fetch("/api/users/signin", {
+    const responseOurPost = await fetch("/api/users/signup", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

@@ -20,7 +20,7 @@ namespace WebApi.Controllers
         {
             User user=usersServices.GetUserByID(id);
             if(user!=null)  return Ok(user);
-            return NotFound();
+            return NoContent();
         }
 
         // POST api/<UsersController>
@@ -33,8 +33,8 @@ namespace WebApi.Controllers
             return NotFound();
         }
 
-        [HttpPost("signin")]
-        public ActionResult<User> PostSignIn([FromBody] User user)
+        [HttpPost("signup")]
+        public ActionResult<User> PostSignUp([FromBody] User user)
         {
             var result = Zxcvbn.Core.EvaluatePassword(user.Password);
 
@@ -44,8 +44,8 @@ namespace WebApi.Controllers
             {
                 return BadRequest("Password is too weak.");
             }
-            usersServices.SignIn(user);
-            return CreatedAtAction(nameof(Get), new { id = user.UserID }, user);
+            usersServices.SignUp(user);
+            return CreatedAtAction(nameof(Get), new { id = user.UserId }, user);
         }
 
 

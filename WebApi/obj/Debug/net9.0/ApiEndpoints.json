@@ -122,8 +122,8 @@
   },
   {
     "ContainingType": "WebApi.Controllers.UsersController",
-    "Method": "PostSignIn",
-    "RelativePath": "api/Users/signin",
+    "Method": "PostSignUp",
+    "RelativePath": "api/Users/signup",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
