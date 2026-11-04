@@ -62,12 +62,12 @@ async function signIn() {
         body: JSON.stringify(newUserDetailes)
     });
     if (!responseOurPost.ok) {
-        if (responseOurPost.text = "the password is weak!")
+        if (responseOurPost.text == "the password is weak!")
             er2.textContent = "הסיסמה חלשה מידי!";
         else {
             er2.textContent = "אירעה שגיאה במהלך הרישום";
         }
-            return
+        return;
         
     }
     er2.textContent = "הרישום בוצע בהצלחה, כעת תוכל להתחבר למערכת";

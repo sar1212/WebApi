@@ -2,26 +2,6 @@
   {
     "ContainingType": "WebApi.Controllers.UsersController",
     "Method": "Get",
-    "RelativePath": "api/Users",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "WebApi.User",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebApi.Controllers.UsersController",
-    "Method": "Get",
     "RelativePath": "api/Users/{id}",
     "HttpMethod": "GET",
     "IsController": true,

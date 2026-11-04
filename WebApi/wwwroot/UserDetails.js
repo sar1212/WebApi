@@ -45,7 +45,7 @@ async function updateUser() {
         });
        
         if (!responseOurPost.ok) {
-            if (responseOurPost.text = "weak password")
+            if (responseOurPost.text == "weak password")
                 message.textContent = "הסיסמה חלשה מידי!";
             else 
                 message.textContent = "אירעה שגיאה במהלך העידכון";
