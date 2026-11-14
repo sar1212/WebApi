@@ -30,6 +30,7 @@ namespace WebApi.Controllers
             User user = usersServices.Login(loginUser);
             if (user != null)
                 return Ok(user);
+            //The assignment asks a login with a wrong password to return 204 NoContent: what does this return now?
             return NotFound();
         }
 
