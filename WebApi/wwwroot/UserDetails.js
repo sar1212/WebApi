@@ -45,6 +45,7 @@ async function updateUser() {
         });
        
         if (!responseOurPost.ok) {
+            //Is responseOurPost.text a function? To read the reply you need await responseOurPost.text()
             if (responseOurPost.text == "weak password")
                 message.textContent = "הסיסמה חלשה מידי!";
             else 
