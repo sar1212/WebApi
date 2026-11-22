@@ -7,6 +7,7 @@ namespace Repository
     public class UsersRepository
     {
         const string filePath = "../WebApi/users.txt";
+        //In C#, names are PascalCase, and ID is written as Id: GetUserById
         public User GetUserByID(int id)
         {
             using (StreamReader reader = System.IO.File.OpenText(filePath))

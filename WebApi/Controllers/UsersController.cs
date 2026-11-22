@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
+﻿//This using isn't used in this file: you can remove it
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Services;
+//This using isn't used in this file: you can remove it
 using System.Text.Json;
 using Zxcvbn;
 
@@ -30,6 +32,7 @@ namespace WebApi.Controllers
             User user = usersServices.Login(loginUser);
             if (user != null)
                 return Ok(user);
+            //The assignment asks login with a wrong password to return 204: which result should this return instead of NotFound?
             return NotFound();
         }
 
@@ -40,6 +43,7 @@ namespace WebApi.Controllers
 
             Console.WriteLine($"Password score: {result.Score}");
 
+            //The assignment asks for a password service interface, used by the users and password controllers: where is it? Right now this controller calls Zxcvbn directly
             if (Zxcvbn.Core.EvaluatePassword(user.Password).Score <= 2)
             {
                 return BadRequest("Password is too weak.");

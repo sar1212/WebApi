@@ -62,6 +62,7 @@ async function signUp() {
         body: JSON.stringify(newUserDetailes)
     });
     if (!responseOurPost.ok) {
+        //Is responseOurPost.text a function? To read the reply you need await responseOurPost.text()
         if (responseOurPost.text == "the password is weak!")
             er2.textContent = "הסיסמה חלשה מידי!";
         else {
@@ -71,6 +72,7 @@ async function signUp() {
         
     }
     er2.textContent = "הרישום בוצע בהצלחה, כעת תוכל להתחבר למערכת";
+    //userN is the email string, not an element, so setting textContent does nothing: which element should be cleared?
     userN.textContent = ""
     pass.textContent = ""
 }
