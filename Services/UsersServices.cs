@@ -4,28 +4,37 @@ using Repository;
 
 namespace Services
 {
-    public class UsersServices
+    public class UsersServices : IUsersServices
     {
-        UsersRepository usersRepository = new UsersRepository();
-        public User GetUserByID(int id)
+        PasswordStrength PasswordStrength = new PasswordStrength();
+        private readonly IUsersRepository userRepository;
+        public UsersServices(IUsersRepository userRepository1)
         {
-          return usersRepository.GetUserByID(id);
+            userRepository = userRepository1;
         }
-        public User Login(LoginUser loginUser)
+        public async Task<User> GetUserByID(int id)
         {
-           return usersRepository.Login(loginUser);
+            return await userRepository.GetUserByID(id);
         }
-        public User SignUp(User user)
+        public async Task<User> Login(LoginUser loginUser)
         {
-          return usersRepository.SignUp(user);
+            return await userRepository.GetUser(loginUser);
         }
-        public bool Update(User userToUpdate)
+        public async Task<User> SignUp(User user)
         {
-            return usersRepository.Update(userToUpdate);
+            if (PasswordStrength.GetPasswordStrength(user.Password).Score <= 2)
+            {
+                // Password is too weak.
+            }
+            return await userRepository.AddUser(user);
         }
-        public int RemoveUser(User userToRemove)
+        public async Task<User> UpdateUser(User userToUpdate)
         {
-            return usersRepository.RemoveUser(userToRemove.UserId);
+            return await userRepository.UpdateUser(userToUpdate);
         }
+        //public async Task<int> RemoveUser(User userToRemove)
+        //{
+        //    return await userRepository(userToRemove.Id);
+        //}
     }
 }

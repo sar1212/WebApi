@@ -1,8 +1,12 @@
+C:\Users\User\Documents\לימודים\API\221126\WebApi\wwwroot\Home.html
+C:\Users\User\Documents\לימודים\API\221126\WebApi\wwwroot\UserDetails.html
+C:\Users\User\Documents\לימודים\API\221126\WebApi\wwwroot\Home.css
+C:\Users\User\Documents\לימודים\API\221126\WebApi\wwwroot\UserDetails.css
+C:\Users\User\Documents\לימודים\API\221126\WebApi\wwwroot\home.js
+C:\Users\User\Documents\לימודים\API\221126\WebApi\wwwroot\UserDetails.js
+wwwroot\Home.css
 wwwroot\Home.html
-wwwroot\home.js
-wwwroot\UserDetailes.html
+wwwroot\UserDetails.css
+wwwroot\UserDetails.html
 wwwroot\UserDetails.js
-E:\‏‏WebApi - עותק\WebApi\wwwroot\Home.html
-E:\‏‏WebApi - עותק\WebApi\wwwroot\home.js
-E:\‏‏WebApi - עותק\WebApi\wwwroot\UserDetailes.html
-E:\‏‏WebApi - עותק\WebApi\wwwroot\UserDetails.js
+wwwroot\home.js

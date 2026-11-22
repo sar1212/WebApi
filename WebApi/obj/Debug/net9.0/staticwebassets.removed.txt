@@ -1,1 +1,6 @@
-C:\Users\User\Desktop\‏‏תיקיה חדשה\WebApi\wwwroot\UserDetailes.html
+C:\Users\User\Desktop\‏‏תיקיה חדשה\WebApi\wwwroot\Home.css
+C:\Users\User\Desktop\‏‏תיקיה חדשה\WebApi\wwwroot\UserDetails.js
+C:\Users\User\Desktop\‏‏תיקיה חדשה\WebApi\wwwroot\home.js
+C:\Users\User\Desktop\‏‏תיקיה חדשה\WebApi\wwwroot\UserDetails.html
+C:\Users\User\Desktop\‏‏תיקיה חדשה\WebApi\wwwroot\UserDetails.css
+C:\Users\User\Desktop\‏‏תיקיה חדשה\WebApi\wwwroot\Home.html

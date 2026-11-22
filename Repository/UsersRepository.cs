@@ -1,88 +1,55 @@
-﻿using System.Text.Json;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 using WebApi;
 using Zxcvbn;
+using System.Linq;
 
 namespace Repository
 {
-    public class UsersRepository
+    public class UsersRepository : IUsersRepository
     {
-        const string filePath = "../WebApi/users.txt";
-        public User GetUserByID(int id)
+        ShopContext _shopContext;
+        public UsersRepository(ShopContext shopContext)
         {
-            using (StreamReader reader = System.IO.File.OpenText(filePath))
-            {
-                string? currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    User user =
-                    JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (user.UserId == id)
-                        return user;
-                }
-            }
-            return null;
+            _shopContext = shopContext;
         }
-        public User Login(LoginUser loginUser)
-        {
-            using (StreamReader reader = System.IO.File.OpenText(filePath))
-            {
-                string? currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    User user = JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (user.Email == loginUser.Email && user.Password == loginUser.Password)
-                        return user;
-                }
-            }
-            return null;
 
-        }
-        public User SignUp(User user)
+        public async Task<User> GetUserByID(int id)
         {
-            if (passwordValidation(user.Password) <= 2)
+            return await _shopContext.Users.FindAsync(id);
+        }
+        public async Task<User> GetUser(LoginUser loginUser)
+        {
+            User user = _shopContext.Users.ToList().Find(u => u.Email == loginUser.Email && u.Password == loginUser.Password);
+            return user;
+        }
+        public async Task<User> AddUser(User user)
+        {
+            _shopContext.Users.AddAsync(user);
+            await _shopContext.SaveChangesAsync();
+            return user;
+        }
+        public async Task<User> UpdateUser(User userToUpdate)
+        {
+            var userToUpdateInDb = await _shopContext.Users.FindAsync(userToUpdate.Id);
+            if (userToUpdateInDb == null)
             {
                 return null;
             }
-            int maxId = 0;
-            foreach (string line in System.IO.File.ReadLines(filePath))
-            {
-                if (string.IsNullOrWhiteSpace(line)) continue;
-                var u = JsonSerializer.Deserialize<User>(line);
-                if (u.UserId > maxId) maxId = u.UserId;
-            }
-            user.UserId = maxId + 1;
-            string userJson = JsonSerializer.Serialize(user);
-            System.IO.File.AppendAllText(filePath, userJson + Environment.NewLine);
-            return user;
+            _shopContext.Entry(userToUpdateInDb).CurrentValues.SetValues(userToUpdate);
+            await _shopContext.SaveChangesAsync();
+            return userToUpdate;
         }
-        public bool Update(User userToUpdate)
+
+        public async Task<int> RemoveUser(int id)
         {
-            string textToReplace = string.Empty;
-            using (StreamReader reader = System.IO.File.OpenText(filePath))
+            var user = await _shopContext.Users.FindAsync(id);
+            if (user != null)
             {
-                string currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    User user = JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (user.UserId == userToUpdate.UserId)
-                        textToReplace = currentUserInFile;
-                }
+                _shopContext.Users.Remove(user);
+                await _shopContext.SaveChangesAsync();
+                return id;
             }
-            if (textToReplace != string.Empty)
-            {
-                string text = System.IO.File.ReadAllText(filePath);
-                text = text.Replace(textToReplace, JsonSerializer.Serialize(userToUpdate));
-                System.IO.File.WriteAllText(filePath, text);
-            }
-            return true;
-        }
-        private static int passwordValidation(string password)
-        {
-            return Zxcvbn.Core.EvaluatePassword(password).Score;
-        }
-        public int RemoveUser(int id)
-        {
-           // Not now...
             return -1;
         }
 

@@ -13,24 +13,31 @@ namespace WebApi.Controllers
 
     public class UsersController : ControllerBase
     {
-        UsersServices usersServices=new UsersServices();
-       // GET api/<UsersController>/5
-        [HttpGet("{id}")]
-        public ActionResult<User> Get(int id)
+        private readonly IUsersServices _usersService;
+        private IPasswordValidation _passwordService;
+        public UsersController(IUsersServices usersService, IPasswordValidation passwordService)
         {
-            User user=usersServices.GetUserByID(id);
+            _usersService = usersService;
+            _passwordService = passwordService;
+        }
+
+        // GET api/<UsersController>/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<User>> Get(int id)
+        {
+            User user=await _usersService.GetUserByID(id);
             if(user!=null)  return Ok(user);
             return NoContent();
         }
 
         // POST api/<UsersController>
         [HttpPost("login")]
-        public ActionResult<User> PostLogin([FromBody] LoginUser loginUser)
+        public async Task<ActionResult<User>> PostLogin([FromBody] LoginUser loginUser)
         {
-            User user = usersServices.Login(loginUser);
+            User user =await _usersService.Login(loginUser);
             if (user != null)
                 return Ok(user);
-            return NotFound();
+            return NoContent();
         }
 
         [HttpPost("signup")]
@@ -40,12 +47,12 @@ namespace WebApi.Controllers
 
             Console.WriteLine($"Password score: {result.Score}");
 
-            if (Zxcvbn.Core.EvaluatePassword(user.Password).Score <= 2)
+            if (result.Score < 2)
             {
                 return BadRequest("Password is too weak.");
             }
-            usersServices.SignUp(user);
-            return CreatedAtAction(nameof(Get), new { id = user.UserId }, user);
+            _usersService.SignUp(user);
+            return CreatedAtAction(nameof(Get), new { id = user.Id }, user);
         }
 
 
@@ -53,13 +60,14 @@ namespace WebApi.Controllers
 
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(User userToUpdate)
+        public async Task<IActionResult> Put(User userToUpdate)
         {
-            if (Zxcvbn.Core.EvaluatePassword(userToUpdate.Password).Score <= 2)
+            if (_passwordService.GetPasswordStrength(userToUpdate.Password).Score <= 2)
                 return BadRequest("Weak password");
             try
             {
-                if (usersServices.Update(userToUpdate))
+                var result = await _usersService.UpdateUser(userToUpdate);
+                if (result!=null)
                     return Ok();
             }
             catch (Exception e)
@@ -71,10 +79,10 @@ namespace WebApi.Controllers
         }
 
         // DELETE api/<UsersController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
 
         [HttpPost("CheckPassword")]
         public int PasswordCheck([FromBody] string password)

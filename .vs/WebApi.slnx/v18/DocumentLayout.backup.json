@@ -1,30 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200Fwebapi - \u05E2\u05D5\u05EA\u05E7\\webapi\\wwwroot\\userdetailes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AFE4044E-7319-4BA1-A68E-8B611D33B66A}|Repository\\Repository.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\repository\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4044E-7319-4BA1-A68E-8B611D33B66A}|Repository\\Repository.csproj|solutionrelative:repository\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200Fwebapi - \u05E2\u05D5\u05EA\u05E7\\webapi\\wwwroot\\userdetails.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{AFE4044E-7319-4BA1-A68E-8B611D33B66A}|Repository\\Repository.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\repository\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4044E-7319-4BA1-A68E-8B611D33B66A}|Repository\\Repository.csproj|solutionrelative:repository\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200Fwebapi - \u05E2\u05D5\u05EA\u05E7\\webapi\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{AFE4044E-7319-4BA1-A68E-8B611D33B66A}|Repository\\Repository.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\repository\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE4044E-7319-4BA1-A68E-8B611D33B66A}|Repository\\Repository.csproj|solutionrelative:repository\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200Fwebapi - \u05E2\u05D5\u05EA\u05E7\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200Fwebapi - \u05E2\u05D5\u05EA\u05E7\\webapi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30529868-0B39-4E4F-B5AD-0A3D11241276}|Services\\Services.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\services\\passwordstrength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30529868-0B39-4E4F-B5AD-0A3D11241276}|Services\\Services.csproj|solutionrelative:services\\passwordstrength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200Fwebapi - \u05E2\u05D5\u05EA\u05E7\\webapi\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFE4044E-7319-4BA1-A68E-8B611D33B66A}|Repository\\Repository.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AFE4044E-7319-4BA1-A68E-8B611D33B66A}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200Fwebapi - \u05E2\u05D5\u05EA\u05E7\\webapi\\wwwroot\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{789630ED-E470-4871-B697-626229A00AE3}|Entity\\Entity.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789630ED-E470-4871-B697-626229A00AE3}|Entity\\Entity.csproj|solutionrelative:entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200Fwebapi - \u05E2\u05D5\u05EA\u05E7\\webapi\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{30529868-0B39-4E4F-B5AD-0A3D11241276}|Services\\Services.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\services\\usersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30529868-0B39-4E4F-B5AD-0A3D11241276}|Services\\Services.csproj|solutionrelative:services\\usersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30529868-0B39-4E4F-B5AD-0A3D11241276}|Services\\Services.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\services\\iusersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30529868-0B39-4E4F-B5AD-0A3D11241276}|Services\\Services.csproj|solutionrelative:services\\iusersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789630ED-E470-4871-B697-626229A00AE3}|Entity\\Entity.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\entity\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789630ED-E470-4871-B697-626229A00AE3}|Entity\\Entity.csproj|solutionrelative:entity\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|c:\\users\\user\\documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\api\\221126\\webapi\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,104 +58,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginUser.cs",
-              "DocumentMoniker": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\LoginUser.cs",
-              "RelativeDocumentMoniker": "WebApi\\LoginUser.cs",
-              "ToolTip": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\LoginUser.cs",
-              "RelativeToolTip": "WebApi\\LoginUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ShopContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Repository\\ShopContext.cs",
+              "RelativeDocumentMoniker": "Repository\\ShopContext.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Repository\\ShopContext.cs",
+              "RelativeToolTip": "Repository\\ShopContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T07:08:02.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDetailes.html",
-              "DocumentMoniker": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\wwwroot\\UserDetailes.html",
-              "RelativeDocumentMoniker": "WebApi\\wwwroot\\UserDetailes.html",
-              "ToolTip": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\wwwroot\\UserDetailes.html",
-              "RelativeToolTip": "WebApi\\wwwroot\\UserDetailes.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-10-15T18:10:11.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-22T17:53:38.033Z",
+              "IsPinned": true,
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserDetails.js",
-              "DocumentMoniker": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\wwwroot\\UserDetails.js",
-              "RelativeDocumentMoniker": "WebApi\\wwwroot\\UserDetails.js",
-              "ToolTip": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\wwwroot\\UserDetails.js",
-              "RelativeToolTip": "WebApi\\wwwroot\\UserDetails.js",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-10-15T17:49:56.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "users.txt",
-              "DocumentMoniker": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\users.txt",
-              "RelativeDocumentMoniker": "WebApi\\users.txt",
-              "ToolTip": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\users.txt",
-              "RelativeToolTip": "WebApi\\users.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-10-15T14:17:33.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\User.cs",
-              "RelativeDocumentMoniker": "WebApi\\User.cs",
-              "ToolTip": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\User.cs",
-              "RelativeToolTip": "WebApi\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Repository\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Repository\\IUsersRepository.cs",
+              "RelativeToolTip": "Repository\\IUsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T14:01:51.535Z"
+              "WhenOpened": "2026-11-22T20:12:04.836Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\UsersController.cs",
-              "ToolTip": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T15:24:57.754Z"
+              "WhenOpened": "2026-11-22T17:56:02.501Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "home.js",
-              "DocumentMoniker": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\wwwroot\\home.js",
-              "RelativeDocumentMoniker": "WebApi\\wwwroot\\home.js",
-              "ToolTip": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\wwwroot\\home.js",
-              "RelativeToolTip": "WebApi\\wwwroot\\home.js",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-10-15T12:49:20.054Z"
+              "DocumentIndex": 0,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Repository\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Repository\\UsersRepository.cs",
+              "RelativeToolTip": "Repository\\UsersRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T17:54:15.464Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\WebApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\WebApi\\Controllers\\UsersController.cs*",
+              "RelativeToolTip": "WebApi\\Controllers\\UsersController.cs*",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAEQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T15:23:02.217Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "UsersServices.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Services\\UsersServices.cs",
+              "RelativeDocumentMoniker": "Services\\UsersServices.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Services\\UsersServices.cs",
+              "RelativeToolTip": "Services\\UsersServices.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T15:02:36.06Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "Entity\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Entity\\User.cs",
+              "RelativeToolTip": "Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T18:23:28.283Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Repository\\Repository.csproj",
+              "RelativeToolTip": "Repository\\Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-22T14:41:56.963Z",
+              "EditorCaption": "",
+              "OwnerCaption": "Repository"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordStrength.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Services\\PasswordStrength.cs",
+              "RelativeDocumentMoniker": "Services\\PasswordStrength.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Services\\PasswordStrength.cs",
+              "RelativeToolTip": "Services\\PasswordStrength.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T18:02:08.772Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUsersServices.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Services\\IUsersServices.cs",
+              "RelativeDocumentMoniker": "Services\\IUsersServices.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Services\\IUsersServices.cs",
+              "RelativeToolTip": "Services\\IUsersServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T20:24:51.914Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Entity\\LoginUser.cs",
+              "RelativeDocumentMoniker": "Entity\\LoginUser.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\Entity\\LoginUser.cs",
+              "RelativeToolTip": "Entity\\LoginUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T20:11:52.759Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Home.html",
-              "DocumentMoniker": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\wwwroot\\Home.html",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\WebApi\\wwwroot\\Home.html",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\Home.html",
-              "ToolTip": "\\\\srv1\\ex\\\u05E0\u05D5\u05E1\u05D1\u05DB\u05E8\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05E9\u05E0\u05D9\\\u05E2\u05D5\u05D1\u05D3\\\u05E9\u05E8\u05D9\u05EA\u05D9 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF \u05D5\u05E9\u05E0\u05D9 \u05D0\u05D9\u05EA\u05DF\\\u200F\u200FWebApi - \u05E2\u05D5\u05EA\u05E7\\WebApi\\wwwroot\\Home.html",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\API\\221126\\WebApi\\wwwroot\\Home.html",
               "RelativeToolTip": "WebApi\\wwwroot\\Home.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-09-02T15:29:40.971Z"
+              "WhenOpened": "2026-11-22T15:00:54.862Z",
+              "OwnerCaption": "%2"
             }
           ]
         }
